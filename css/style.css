@@ -37,7 +37,6 @@ body {
     
     max-width: 1200px;
     margin: 0px auto;
-    color: #f6f6f6;
     padding: 20px 30px;
     display: flex;
     justify-content: space-between;
@@ -49,6 +48,7 @@ body {
 
 header {
     background-color: rgb(228, 91, 0);
+    color: white;
 }
 
 nav img {
@@ -143,8 +143,12 @@ footer {
 
 /* description */
 
-.description p {
+.description p,h3 {
     color: #23272a;
+}
+
+.description p {
+    font-weight: bold;
 }
 
 /* icon */
