@@ -9,16 +9,6 @@ ul {
     list-style: none;
 }
 
-
-/* general */
-:root {
-    --color-secondary: #ffffff;
-    --color-primary: #23272a;
-    --color-header-bg: #255ee9;
-    --color-section-bg: #f6f6f6;
-    --color-contrast: #aebbe7;
-}
-
 .debug {
     border: 2px solid red;
     height: 50%;
@@ -29,8 +19,8 @@ ul {
 
 body {
     font-family: "Arial", sans-serif;
-    background-color: var(--color-secondary);
-    color: var(--color-primary);
+    background-color: white;
+    color: black;
 }
 
 .container {
@@ -64,6 +54,7 @@ main {
 
     width: calc(100% / 3 - 10px);
     cursor: pointer;
+    flex-shrink: 1;
 }
 
 .card-image {
@@ -142,6 +133,10 @@ footer {
 
 }
 
+.card {
+    flex-basis: 33,333%;
+}
+
 /* description */
 
 .description p,h3 {
@@ -172,10 +167,7 @@ footer {
     gap: 14px;
 }
 
-.flex-wrap {
-    flex-wrap: wrap;
-    flex-wrap: wrap;
-}
+
 
 .center-vertical {
     align-items: center;
