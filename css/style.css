@@ -122,6 +122,16 @@ img {
     display: block;
 }
 
+footer {
+    background-color: #23272a;
+    color: white;
+
+}
+
+*[class~="fa-brands"] {
+    padding: 5px;
+}
+
 
 /* utility flex */
 
