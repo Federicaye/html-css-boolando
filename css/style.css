@@ -171,6 +171,11 @@ footer {
     gap: 14px;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
 .center-vertical {
     align-items: center;
 
