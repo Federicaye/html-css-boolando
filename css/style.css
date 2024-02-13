@@ -108,6 +108,18 @@ img {
     right: 0px;
     font-size: 30px;
 
+
+}
+
+/* hover */
+
+.hearth:hover {
+
+    color: red;
+}
+
+li:hover {
+    text-decoration: underline;
 }
 
 .secondary-image {
@@ -128,10 +140,15 @@ footer {
 
 }
 
+/* icon */
+
 *[class~="fa-brands"] {
     padding: 5px;
 }
 
+*[class~="fa-solid"] {
+    padding: 5px;
+}
 
 /* utility flex */
 
