@@ -49,6 +49,7 @@ body {
 header {
     background-color: rgb(228, 91, 0);
     color: white;
+    box-shadow: 2px 2px 5px #23272a;
 }
 
 nav img {
