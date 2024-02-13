@@ -55,6 +55,9 @@ nav img {
     height: 30px;
 }
 
+main {
+    padding-top: 110px;
+}
 
 .card {
 
@@ -128,4 +131,8 @@ img {
     position: fixed;
     width: 100%;
     top: 0px;
+}
+
+.z-index {
+    z-index: 1002;
 }
